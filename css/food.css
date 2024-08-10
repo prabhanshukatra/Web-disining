@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: white;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 53px;
+    position: fixed;
+    top: 0;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui;
+    font-weight: 640;
+    padding: 0 18px;
+}
+.banner{
+    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,1)),url(../images/foodpanda.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 71px;
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: cursive;
+    padding-top: 145px;
+}
+.banner input{
+    width: 518px;
+    height: 42px;
+    font-size: 16px;
+    background: #000000b0;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 7px 8px #83838bc7;;
+}
+::placeholder{
+    color: white;
+}
+.news{
+    background: #000000bf;
+    width: 100%;
+    height: 60px;
+    margin-top: -20px;
+}
+.news marquee{
+    color: white;
+    font-size: 32px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.about{
+    width: 100%;
+    padding: 100px 200px;
+    text-align: center;
+}
+.about h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #ff2b85;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin-bottom: 12px;
+}
+.about p{
+    line-height: 33px;
+    font-size: 20px;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 22px;
+}
+.about button{
+    border-radius: 32px;
+    width: 167px;
+    height: 49px;
+    font-size: 20px;
+    background: #ff2b85;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.about button:hover{
+    background-color: #801d3c;
+}
+.press{
+    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,1)),url(../images/Rider.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+.press h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #ff2b85;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin-bottom: 12px;
+}
+.press p{
+    font-size: 23px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-family: system-ui;
+}
+.press button{
+    border-radius: 32px;
+    width: 167px;
+    height: 49px;
+    font-size: 20px;
+    background: #ff2b85;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 14px;
+}
+.press button:hover{
+    background-color: #801d3c;
+}
+.team{
+    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,1)),url(../images/foodpanda2.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+.team h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #ff2b85;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin-bottom: 12px;
+}
+.team p{
+    font-size: 23px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-family: system-ui;
+}
+.team button{
+    border-radius: 32px;
+    width: 167px;
+    height: 49px;
+    font-size: 20px;
+    background: #ff2b85;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 14px;
+}
+.team button:hover{
+    background: linear-gradient(to right, red,green);
+}
+.contactus{
+    background: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.1)),url(../images/banner1.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+.contactus h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #ff2b85;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin-bottom: 12px;
+}
+.contactus p{
+    font-size: 23px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-family: system-ui;
+}
+.contactus button{
+    border-radius: 32px;
+    width: 167px;
+    height: 49px;
+    font-size: 20px;
+    background: #ff2b85;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 14px;
+}
+.contactus button:hover{
+    background-color: #801d3c;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 400px;
+    color: white;
+    padding: 52px 116px;
+}
+.footerlogo h2{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: system-ui;
+    padding-top: 32px;
+    font-weight: 400;
+}
+h3{
+    font-size: 17px;
+    font-family: sans-serif;
+}

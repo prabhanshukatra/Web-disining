@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 55px;
+    background-color: #ff8800;
+    position: fixed;
+    top: 0;
+}
+.nav button{
+    margin-left: 109px;
+    height: 55px;
+    width: 254px;
+    font-size: 20px;
+    background: #e67a00;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 22px;
+    font-size: 17px;
+    font-family: system-ui;
+    color: white;
+}
+.banner{
+    background: url(../images/bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 55px;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 154px;
+    font-size: 38px;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 2px 2px #222;
+}
+.banner p{
+    text-align: center;
+    line-height: 38px;
+    font-size: 19px;
+    color: white;
+    font-family: system-ui;
+    text-shadow: 1px 1px #222;
+}
+.banner input{
+    width: 612px;
+    height: 42px;
+    font-size: 17px;
+    background: #000000b0;
+    border: none;
+    outline: none;
+    margin-top: 18px;
+    color: white;
+    padding-left: 14px;
+}
+.Scientific{
+    width: 100%;
+    height: 152px;
+}
+.Scientific h1{
+    text-align: center;
+    font-size: 44px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    padding-top: 48px;
+    color: #444444;
+}
+.Scientific h2{
+    text-align: center;
+    font-size: 21px;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    padding-top: 23px;
+    color: #444444;
+}
+
+.space{
+    width: 100%;
+    padding: 0 90px;
+    margin-top: 30px;
+}
+.space .img12{
+    width: 361px;
+    height: 244px;
+    float: left;
+    margin: 14px;
+    border: solid 5px;
+    border-color: #d6d6f5;
+}
+.space .img12  img{
+    width: 100%;
+}
+.space .img12 h4{
+    text-align: center;
+    margin-top: -35px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-shadow: 2px 2px 2px #0c0b0b;
+    font-family: system-ui;
+}
+.space button{
+    margin-left: 483px;
+    margin-top: 73px;
+    width: 202px;
+    height: 55px;
+    font-size: 23px;
+    border-radius: 64px;
+    border: none;
+    background: #ff8800;
+    font-family: sans-serif;
+    color: white;
+    cursor: progress;
+}
+.space button:hover{
+    background-color: #cc6d00;
+}
+.parents{
+    width: 100%;
+    height: 236px;
+    margin-top: 65px;
+    background-color: #f7f7f7;
+}
+.p1{
+    text-align: center;
+    font-size: 24px;
+    padding: 28px 198px 0px 198px;
+    font-style: italic;
+    color: #666;
+}
+.p2{
+    text-align: center;
+    font-size: 19px;
+    padding: 33px 198px 0px 198px;
+    font-style: italic;
+    color: #666;
+}
+.fotter{
+    width: 100%;
+    height: 200px;
+    margin-top: 74px;
+    background-color: #f7f7f7;
+}
+.Privacy{
+    padding-left: 76px;
+    padding-top: 30px;
+    color: #ff8800;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.copy{
+    padding-left: 76px;
+    padding-top: 18px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+}
+.fotter img{
+    width: 113px;
+    margin-left: 71px;
+    padding-top: 15px;
+}

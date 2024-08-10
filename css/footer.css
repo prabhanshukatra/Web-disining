@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 400px;
+    color: white;
+    padding: 52px 20px;
+}
+.footersection{
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+}
+footer ul li{
+    list-style: none;
+}
+.footersection h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.footersection .footerlogo a{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.footersection .usefullink{
+    text-align: center;
+}
+.footersection .usefullink ul li{
+    margin: 10px 0;
+}
+.footersection .usefullink ul li a {
+    color: white;
+    font-size: 18px;
+}
+.footersection .contactus ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+.footersection .followus li{
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
